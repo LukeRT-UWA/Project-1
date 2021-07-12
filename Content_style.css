@@ -2,6 +2,9 @@
     --green: rgba(6, 95, 70);;
     --yellow: rgba(180, 83, 9);
 }
+img{
+    margin: 5px;
+}
 header{
     background-color: var(--green);
     margin-bottom: 20px;
@@ -80,6 +83,18 @@ h1{
     font-size: 16px;
     transition: 0.4s;
     line-height: 40px;
+}
+#content{
+    margin-top: 15%;
+    margin-left: 7%;
+    padding: 10px;
+}
+.pure-u-1-4{
+    justify-items: center;
+}
+.right{
+    float: right;
+    word-wrap: break-word;
 }
 
 @media screen and (max-width: 620px) {
