@@ -1,0 +1,131 @@
+:root{
+    --green: rgba(6, 95, 70);;
+    --yellow: rgba(180, 83, 9);
+    --darkblue:#303cbc;
+    --lightblue:#B4dfe5;
+    --cream:#fbe8a6;
+    --verylightblue: #d2fdff;
+    --darkcream:#F4976c;
+}
+header{
+    background-color: var(--darkblue);
+    margin-bottom: 20px;
+}
+body{
+    background-color: var(--darkcream);
+}
+h1{
+    font-size: 300%;
+}
+.Genre{
+    background-color: #2f3640;
+}
+.pure-u-1-3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+
+
+}
+
+.searchBox:hover > .searchInput {
+    width: 240px;
+    padding: 0 6px;
+}
+
+
+.searchBox:hover > .searchButton {
+  background: white;
+  color : #2f3640;
+}
+
+.searchButton {
+    color: white;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.searchInput {
+    border:none;
+    background: none;
+    outline:none;
+    float:left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+
+}
+.genres{
+    border:none;
+    background: none;
+    outline:none;
+    float:left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+
+
+ /* Nellys additions */
+
+}
+
+.layout {
+    float: right;
+    
+}
+
+.searchBox1 {
+    position: absolute;
+    left: 50%;
+    transform:  translate(-50%,50%);
+    background:none
+}
+
+#button1 {
+    background:  var(--cream);
+}
+#button2 {
+    background:  var(--lightblue);
+}
+#button3 {
+    background: var(--cream);
+}
+
+.text {
+text-align:justify;
+width: 90%;
+float: right;
+
+
+}
+
+.container {
+    width: 90%;
+    flex-flow: column wrap;
+      }
+
+/* /* Nellys additions */ */
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 600px;
+
+}
+
+
+
