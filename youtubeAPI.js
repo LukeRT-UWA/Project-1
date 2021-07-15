@@ -6,6 +6,7 @@ function init() {
     gapi.client.load("youtube","v3","search",function(){
     });
 
+/*
 function getyoutubeAPI() {
     
     const request = gapi.client.youtube.search.list({
@@ -17,10 +18,24 @@ function getyoutubeAPI() {
         videoDefinition: "high",
         videoEmbeddable: "true"
         }),
-/*        
-    request.execute(function(response) {
-        var results = response.result;)
-        }
+
+        request.execute(function(response) {
+        var results = response.result);
+        };
+    console.log(results);
+
+};
+*/
+
+function searchByKeyword() {
+    var results = YouTube.Search.list('id,snippet', {q: 'dogs', maxResults: 25});
+  
+    for(var i in results.items) {
+      var item = results.items[i];
+      Logger.log('[%s] Title: %s', item.id.videoId, item.snippet.title);
+    }
+  }
+/*
 
 const videoContainerEl = document.getElementById("video-container");    
 const videoMedia = document.createElement("video");
