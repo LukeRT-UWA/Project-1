@@ -1,4 +1,4 @@
-youtubeAPI = "AIzaSyAm4ehkwsMN4i0Cdita_8ls8y39Bapqe-M"
+youtubeAPI = "AIzaSyB599Zhnh0IGZVuo2rk6h43K_6oBU2Bs28"
 
 //get acess to Youtube API ready
 function init() {
