@@ -99,11 +99,20 @@ h1{
     width: 50%;
     padding: 10px;
     height: 600px;
+}
 
+.card {
+
+    width: 200px;
+    margin: 20px;
+    border: 2px solid black;
+
+}
 
 @media screen and (max-width: 620px) {
 .searchBox:hover > .searchInput {
     width: 150px;
     padding: 0 6px;
+}
 }
 }
